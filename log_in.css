@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 35vw;
+  height: 100vh;
+  border-right: 1px solid rgb(215, 215, 215);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container > a {
+  margin-bottom: 8vh;
+  color: rgb(92, 229, 180);
+  text-decoration: none;
+}
+
+.container > h2 {
+  margin-bottom: 8vh;
+  color: rgb(92, 229, 180);
+}
+
+.container h3 {
+  color: grey;
+  text-align: center;
+  margin-bottom: 6vh;
+  font-weight: lighter;
+}
+
+.container button {
+  width: 20vw;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18vh;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(184, 184, 184);
+  background-color: white;
+  margin-bottom: 5vh;
+}
+
+.container button svg {
+  width: 2vw;
+}
+
+.container h4 {
+  margin-bottom: 2vh;
+  font-weight: lighter;
+  font-size: 1.1vw;
+}
+
+input {
+  width: 20vw;
+  height: 6vh;
+  border-radius: 20px;
+  border: 1px solid rgb(183, 183, 183);
+  outline: none;
+  margin-top: 2vh;
+  padding: 0px 10px;
+}
+
+::placeholder {
+  color: rgb(171, 171, 171);
+}
+
+.big-container {
+  width: 65vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-container p {
+  font-size: 5vw;
+  color: rgb(92, 229, 180);
+  font-weight: bolder;
+}
+
+main {
+  display: flex;
+}
+
+@media only screen and (max-width: 430px) {
+  .container {
+    width: 100vw;
+    height: 90vh;
+  }
+
+  .container > a {
+    color: rgb(92, 229, 180);
+    text-decoration: none;
+  }
+
+  .container > h2 {
+    color: rgb(92, 229, 180);
+  }
+
+  .container h3 {
+    color: grey;
+    text-align: center;
+
+    font-weight: lighter;
+  }
+
+  .container button {
+    width: 55vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 10vh;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(184, 184, 184);
+    background-color: white;
+  }
+
+  .container button svg {
+    width: 6vw;
+  }
+
+  .container h4 {
+      font-weight: lighter;
+      font-size: 3.1vw;
+    }
+    .container a h2{
+        font-size: 7vw;
+    }
+
+    input {
+        width: 50vw;
+        height: 4vh;
+        border-radius: 20px;
+        border: 1px solid rgb(183, 183, 183);
+        outline: none;
+        
+        
+        padding: 0px 10px;
+  }
+
+
+}

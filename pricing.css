@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    background-color: white;
+    box-shadow:  0px 2px 1px rgba(57, 57, 57, 0.075);
+}
+body{
+    overflow-x: hidden;
+    color: grey;
+    
+    font-family: "Raleway", sans-serif;
+
+}
+
+.list{
+    position: absolute;
+    right: 0vw;
+}
+
+.nav-btn{
+   
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(92, 229, 180);
+    outline: none;
+    border: none;
+}
+
+main .container-md{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+main .container-md h2{
+    color: rgb(81, 81, 81);
+    font-weight: bolder;
+}
+
+main .container-sm{
+    display: flex;
+    color: rgb(99, 99, 99);
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10vh;
+}
+
+
+footer{
+    color: grey;
+    margin-top: 15vw;
+}
+
+footer h5{
+    font-weight: bolder;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+
+footer a img{
+    width: 10vw;
+
+}
